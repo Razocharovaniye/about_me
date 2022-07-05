@@ -25,10 +25,6 @@
   z-index: 2001;
   transition: color 0.25s ease-in-out;
 }
-.nav_toggle:after {
-  content: url(../src/img/right.svg);
-  text-decoration: none;
-}
 .nav_toggle:hover {
   color: #f4f4f4;
 }
@@ -54,10 +50,6 @@
   -webkit-transform: translateX(320px);
   -moz-transform: translateX(320px);
   transform: translateX(320px);
-}
-[id='nav_toggle']:checked ~ .nav > .nav_toggle:after {
-  content: url(../src/img/left.svg);
-  /*знак крестика*/
 }
 body {
   animation: bugfix infinite 1s;
